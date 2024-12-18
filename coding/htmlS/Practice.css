@@ -1,0 +1,11 @@
+body
+{
+    background-color: rgb(201, 164, 226);
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.ram{
+    border-radius: 100px;
+}

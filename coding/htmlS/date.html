@@ -1,0 +1,29 @@
+<div _ngcontent-my-app-c2="" class="input-group">
+    <input
+      _ngcontent-my-app-c2=""
+      readonly=""
+      required=""
+      type="text"
+      placeholder="Departure"
+      class="dateplug rdeparturedate no-border ng-pristine ng-invalid ng-touched"
+      id="originDate"
+    />
+  </div>
+  
+  <script>
+    // Set any date you wish
+    const desiredDate = '25-10-2024'; // Example date
+    
+    // Locate the input field by its ID
+    const inputField = document.getElementById('originDate');
+    
+    // Remove the readonly attribute (optional)
+    inputField.removeAttribute('readonly');
+  
+    // Set the desired date
+    inputField.value = desiredDate;
+  
+    // Optionally, trigger a change event to notify any listeners
+    inputField.dispatchEvent(new Event('change'));
+  </script>
+  <p></p>

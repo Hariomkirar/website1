@@ -1,0 +1,25 @@
+.nextimage{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    background-size: cover;
+    margin-right: 200px;
+}
+.nextimage ::after{
+    background-color: rgba(0, 0, 0, 0.69);
+}
+span{
+    cursor: pointer;
+    text-align: justify;
+    color: rgb(252, 252, 252);
+    margin-inline-start: 20px;
+}
+.text-down{
+    position: absolute;
+    margin-top: 200px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.162);
+}

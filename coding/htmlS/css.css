@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(172, 187, 226, 0.866);
+}
+.first{
+    color: rgb(23, 23, 20);
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+    font-family: sans-serif;
+}
+.second{
+    border-radius: 20px;
+    background-color: rgb(221, 217, 135);
+    color: rgb(26, 107, 229);
+    border: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+h4{
+    color: red;
+}

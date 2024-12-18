@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+   -webkit-text-fill-color: rgba(255, 0, 0, 0.815);
+}
+p{
+    color:blue;
+}
+li{
+
+    color: blueviolet;
+    cursor: pointer;
+}
+button{
+    color: red;
+}
+link{
+    color: red;
+}

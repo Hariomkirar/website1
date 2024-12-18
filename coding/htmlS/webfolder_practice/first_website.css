@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient( to top,rgba(0, 0, 0, 0.6)50%,rgba(0,0,0,0.6)50%), url(../website_html_css/back.jpg);    
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    }
+
+.logo h1{
+        width: 200px;
+        height: 70px;
+        color: orangered;
+        font-family: ballet;
+        font-weight: 600;
+        font-style: normal;      
+        text-shadow: 2px 2px 10px rgba(248, 148, 148, 0.556);
+        font-size:90px;
+        font-style: normal;
+    }
+    .navbar{
+        margin-left: 25px;
+    }
+    .nav{
+        float: left;
+        width: 1300px;
+        height: 70px;
+    }
+    ul{
+        margin-left: 200px;
+    }
+    ul li{
+        margin-left: 10px;
+        display: flex;
+        float: left;
+               
+    }
+    ul li a{
+        font-family: 'Times New Roman';
+        font-size: 25px;
+        margin-left: 30px;
+        text-decoration: none;
+        color: rgb(247, 19, 19);
+        background-color: transparent;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-shadow: 1px 1px 1px blueviolet;
+    }
+    h1>span{
+        color: orangered;
+    }
+    .srch{
+        margin-left: 70px;
+        width: 250px;
+        height: 40px;
+        background: transparent;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-right: none;
+        border-right: none;
+        border: 1px solid orangered;
+        color: whitesmoke;
+        font-size: 15px;
+        padding-left: 10px;
+    
+    }
+    .srch:focus{
+        outline: none;
+
+    }
+    .btn{
+        position: absolute;
+        width: 100px;
+        color:rgb(255, 255, 255);
+        background-color: orangered;
+        height: 40px;
+        margin-left: none;
+        border: 2px solid orangered;
+        border-top-right-radius:5px ;
+        border-bottom-right-radius: 5px;
+        font-size: 17px;
+        font-weight: bold;
+        transition: 0.9s ease-in-out;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: transparent;
+        color: rgb(255, 4, 4);
+        box-shadow: 2px 2px 2px solid rgb(244, 8, 8);
+    }
+    ul li a:hover{
+        transition: 0.4s ease-in; 
+        background-color:transparent;
+        box-shadow: rgb(223, 134, 134) 0px 0px 5px;
+    }
+    .title{
+        margin-left: none;
+        display: flex;
+        font-size: 40px;
+        line-height: 70px;
+        padding-top: 40px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: rgba(245, 245, 245, 0.727);
+
+    }
+    .content{
+        padding-top: 20px;
+        text-indent: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: rgba(250, 250, 250, 0.607);
+    }
+    .content a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 22px;
+        }
+        .but{
+            cursor: pointer;
+            height: 50px;
+            width: 200px;
+            margin-left: 150px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            margin-top: 10px;
+            background-color: orangered;
+            border-radius: 10px;
+        }
+        .login{
+            text-align: center;
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            margin-left: 950px;
+            background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0, 0, 0,0.5)50%);
+            top: 0px;
+            padding: 25px;
+            margin-top: 150px;
+            padding-top: 20px;
+            padding-left: 30px;
+            border-radius: 10px;
+        
+        }
+        .login .log{
+            font-weight: bold;
+            color: orangered;
+            text-align: center;
+            font-size: 40px;
+            text-shadow: 2px 2px 12px rgba(177, 86, 230, 0.665);
+        }
+        .loginbox{
+            width: 220px;
+            height: 20px;
+            background-color:transparent;
+            margin-top: 15px;
+            padding: 5px;
+            border-top: none;
+            border-bottom: 2px solid orangered;
+            border-right: none;
+            border-left: none;
+            
+        }
+        .Remember{
+            margin-top: 10px;
+            position: relative;
+            color: white;  
+            font-size: 16px;         
+        }
+        .Remember>a{
+            padding-left: 15px;
+            text-decoration: none;
+            color: orangered;
+        }
+        .loginbox:focus{
+            outline: none;
+        }
+        .forgot a{
+            color: orangered;
+            text-decoration: none;
+            float: left;
+        }
+        ::placeholder{
+            color: rgba(255, 255, 255, 0.36);
+            
+        }
+        .btnn{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            height: 40px;
+            width: 150px;
+            background-color: orangered;
+            color: black;
+            font-size: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.4s ease-in ;
+        }
+        .btnn:hover{
+            background-color: white;
+        }
+        
